@@ -33,6 +33,42 @@ Available plugins
 - ```SMBAuth``` - Evoke SMB challenge-response auth attempts
 - ```Upsidedownternet``` - Flips images 180 degrees
 
+Plugin command line switches
+============================
+To load a specific plugin use the following switches
+
+--screen (Screenshot additional switches --interval)
+
+--responder (additional switches --analyze --wredir --nbtns --fingerprint --lm --wpad)
+
+--hsts (SSLstrip+)
+
+--spoof (additional switches --arp --icmp --dhcp --dns --shellshock --gateway --targets --arpmode)
+
+--beefauto
+
+--appoison
+
+--ferretng (additional switches --port --load-cookies)
+
+--browserprofiler
+
+--cachekill
+
+--filepwn
+
+--inject (additional switches --js-url --html-url --html-payload --match-str --preserve-cache --per-domain --rate-limit --count-limit --white-ips --black-ips --white-domains --black-domains)
+
+--browsersniper (BrowserPwn)
+
+--jskeylogger
+
+--replace
+
+--smbauth
+
+--upsidedownternet
+
 Changelog
 =========
 
